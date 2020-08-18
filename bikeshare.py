@@ -184,10 +184,10 @@ def raw_data(df):
 
     while True:
         user_input = input('Would you like to see the first/next 5 lines of raw data? Enter yes or no: ').lower()
-        if user_input not in ['yes', 'no']:
-            print('Please type either yes or no.\n')
+        if user_input not in ['yes', 'no', 'yeah']:
+            print('Please type either yes, yeah or no.\n')
 
-        elif user_input == 'yes':
+        elif user_input == 'yes' or 'yeah':
             print(df.iloc[data : data+5])
             data += 5
 
