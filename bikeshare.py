@@ -30,7 +30,7 @@ def get_filters():
         else:
             print("\nPlease enter a valid city name (Chicago, New York City, or Washington.\n")
 
-    # get user input for the month filter using a while loop to handle inputs that are not part of MONTH_DATA.
+    # I want to get user input for the month filter using a while loop to handle inputs that are not part of MONTH_DATA.
     while True:
         month = input("\nWhich month do you want to filter? January, Feburary, March, April, May, or June? Type all if you do not want to filter by month.\n").lower()
         if month in MONTH_DATA:
@@ -38,7 +38,7 @@ def get_filters():
         else:
             print("\nPlease enter a valid month or all if you do not want to filter.\n")
 
-    # get user input for the weekday filter using a while loop to handle inputs that are not part of DAY_DATA.
+    # I want to get user input for the weekday filter using a while loop to handle inputs that are not part of DAY_DATA.
     while True:
         day = input("\nWhich weekday do you want to see? Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, or Sunday? Type all if you do not want to filter by weekday.\n").lower()
         if day in DAY_DATA:
