@@ -20,7 +20,7 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hello! Let\'s look at some US bikeshare data!')
     # I want to get user input for the city choice using a while loop to handle inputs that are not part of CITY_DATA.
     # I want to get user input for the city choice using a while loop to handle inputs that are not part of CITY_DATA.
     while True:
