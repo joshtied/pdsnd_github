@@ -11,4 +11,4 @@ Analyzing data from a bikeshare company using Python
 Bikeshare.py
 
 ### Credits
-Thanks to Udacity!
+Thanks to Udacity for this project!
